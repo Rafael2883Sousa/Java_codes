@@ -1,5 +1,5 @@
     /*  
-    A secretaria da UM possui um sistema que pesquisa o nome de docentes em vários ficheiros mas a pesquisa tem-se tornado num processo muito demorado visto que é feita em um ficheiro de cada vez.
+    A secretaria da Universidade possui um sistema que pesquisa o nome de docentes em vários ficheiros mas a pesquisa tem-se tornado num processo muito demorado visto que é feita em um ficheiro de cada vez.
     Por isso foi solicitado aos alunos do terceiro Ano do curso EISC que durante uma das aulas de Programação Concorrente que os mesmos desenvolvessem uma solução que auxiliasse o pessoal da secretaria na pesquisa do nome de um determinado Docente.
     O nome do docente deverá ser indicado e o programa deverá percorrer os ficheiros e verificar se o mesmo já foi registado, caso o encontrar o programa terminará e deverá retornar o nome do ficheiro e a linha onde foi encontrado o registro.
     Para testar o programa foi fornecido 9 ficheiros contendo nome de 1000 docentes em cada ficheiro.
