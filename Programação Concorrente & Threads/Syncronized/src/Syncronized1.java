@@ -1,9 +1,10 @@
 public class Syncronized1 implements Runnable{
     
     private int i;
+    //static Object chave = new Object();
 
     public void run(){
-        synchronized(this){
+        synchronized(this/*chave*/){
             i++;
             System.out.println(Thread.currentThread().getName()+" -> "+i);
         }
