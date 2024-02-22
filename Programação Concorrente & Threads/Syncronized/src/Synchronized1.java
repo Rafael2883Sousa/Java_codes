@@ -1,4 +1,4 @@
-public class Syncronized1 implements Runnable{
+public class Synchronized1 implements Runnable{
     
     private int i;
     //static Object chave = new Object();
@@ -12,7 +12,7 @@ public class Syncronized1 implements Runnable{
     
     public static void main(String[] args) {
         
-        Syncronized1 sync = new Syncronized1();
+        Synchronized1 sync = new Synchronized1();
 
         Thread t0 = new Thread(sync);
         Thread t1 = new Thread(sync);
