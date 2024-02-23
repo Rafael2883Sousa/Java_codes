@@ -16,7 +16,7 @@ public class Synchronized2 implements Runnable{
             System.out.println("Raiz de "+pot+" = "+raiz);
         }
     }
-    
+
     public static void main(String[] args) {
 
         Synchronized2 syncro = new Synchronized2();
@@ -27,6 +27,5 @@ public class Synchronized2 implements Runnable{
         t0.start();
         t1.start();
         t2.start();
-        
     }
 }
