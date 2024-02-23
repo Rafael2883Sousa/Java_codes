@@ -9,8 +9,6 @@ public class SynchronizedCollections implements Runnable{
 
     public void run(){
         synchronized(list){
-
-            v  
             list.add("Pedido "+(i+1));
             ++i;
         }
