@@ -1,4 +1,4 @@
-public class MultiThread implements Runnable{
+public class MultiThread_Manually implements Runnable{
 
     private static final int num_atedentes = 3;
 
@@ -10,7 +10,7 @@ public class MultiThread implements Runnable{
 
     public static void main(String[] args) {
 
-        MultiThread multi = new MultiThread();
+        MultiThread_Manually multi = new MultiThread_Manually();
         
         for (int i = 0; i<num_atedentes; i++){
             Thread t = new Thread(multi);
