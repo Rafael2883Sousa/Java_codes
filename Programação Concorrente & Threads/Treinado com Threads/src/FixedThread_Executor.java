@@ -19,8 +19,8 @@ public class FixedThread_Executor {
         }
     }
     public static void main(String[] args) {
-        //ExecutorService ex = Executors.newFixedThreadPool(2);
-        ExecutorService ex = Executors.newCachedThreadPool();
+        ExecutorService ex = Executors.newFixedThreadPool(2);
+        //ExecutorService ex = Executors.newCachedThreadPool();
         try {
             Future<Integer> n1 = ex.submit(new Tarefa()); 
             Future<Integer> n2 = ex.submit(new Tarefa());
