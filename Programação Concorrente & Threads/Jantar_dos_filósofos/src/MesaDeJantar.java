@@ -4,7 +4,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class MesaDeJantar { 
-    private Random gerador;
+    private Random gerador; 
     
     public MesaDeJantar(){
         gerador = new Random();
